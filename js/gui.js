@@ -270,7 +270,7 @@ function CheckResult() {
 	
 	if(InCheck == BOOL.TRUE) {
 		if(GameBoard.side == COLOURS.WHITE) {
-	      $("#GameStatus").text("Oyun bitti {siyahlar mat ett}");
+	      $("#GameStatus").text("Oyun bitti {siyahlar mat etti}");
 	      return BOOL.TRUE;
         } else {
 	      $("#GameStatus").text("Oyun bitti {beyazlar mat etti}");
