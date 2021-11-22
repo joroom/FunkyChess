@@ -303,7 +303,7 @@ function UpdateDOMStats(dom_score, dom_depth) {
 
 	var scoreText = "Skor: " + (dom_score / 100).toFixed(2);
 	if(Math.abs(dom_score) > MATE - MAXDEPTH) {
-		scoreText = "Skor: Hamlede  mat" + (MATE - (Math.abs(dom_score))-1);
+		scoreText = "Skor:" + (MATE - (Math.abs(dom_score))-1) + "Hamlede  mat";
 	}
 	
 	
